@@ -6,13 +6,13 @@
         if($queryDelete){
             echo
                 '<script>
-                alert("Delete Success"); window.location = "../page/listPage.php"
+                alert("Delete data Success"); window.location = "../page/listPage.php"
                 </script>';
         }
         else{
             echo
                 '<script>
-                alert("Delete Failed"); window.location = "../page/listPage.php"
+                alert("Delete data Failed"); window.location = "../page/listPage.php"
                 </script>';
         }
     } 
